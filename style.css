@@ -1,0 +1,152 @@
+/* style.css */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.6;
+    padding: 40px;
+    margin: 0;
+}
+
+.box {
+    border: 2px solid #000000;
+    padding: 30px;
+    margin-bottom: 30px;
+    background: #ffffff;
+    box-shadow: 5px 5px 0px #000000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+th {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    padding: 12px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+td {
+    border: 1px solid #000000;
+    padding: 12px;
+    color: #333;
+}
+
+input, select, textarea {
+    font-family: 'Times New Roman', serif;
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btn-big {
+    font-family: 'Times New Roman', serif;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    background: #000000;
+    color: #ffffff;
+    border: 2px solid #000000;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    margin: 10px;
+}
+
+.btn-back {
+    font-family: 'Times New Roman', serif;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    color: #000000;
+    border: 1px solid #000000;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.2s;
+}
+
+.btn-back:hover { background: #f0f0f0; }
+.btn-big:hover  { background: #ffffff; color: #000000; }
+
+/* ---- Heading tabel utama ---- */
+.head-x-tahun, .head-x-media,
+.head-tele-tahun, .head-tele-kat {
+    color: #ffffff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 1.1em;
+}
+
+/* X — warna hitam solid */
+.head-x-tahun { background: #000000; }
+.head-x-media { background: #222222; }
+
+/* Telegram — warna abu gelap agar beda */
+.head-tele-tahun { background: #333333; }
+.head-tele-kat   { background: #444444; }
+
+/* Sub heading telegram per kategori */
+.head-sub-tele {
+    background: #666666;
+    color: #ffffff;
+    padding: 6px 16px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 0.95em;
+}
+
+.sub-tele {
+    border-left: 4px solid #000000;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+/* Sub-judul media dalam tabel */
+.title-kategori {
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.kode {
+    font-family: monospace;
+    background: #f0f0f0;
+    padding: 2px 5px;
+    font-weight: bold;
+}
+
+.btn-link { color: #000000; text-decoration: underline; font-weight: bold; }
+.btn-link:hover { color: #555555; }
+
+.pesan-kosong {
+    color: #777;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    border: 1px dashed #000000;
+    margin: 10px 0;
+}
+
+td, th { font-family: 'Times New Roman', Times, serif; }
+
+.step { display: none; }
+
+.text-black {
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
